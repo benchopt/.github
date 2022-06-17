@@ -25,5 +25,5 @@ jobs:
 
       - name: run script
         run: |
-          python py_scripts/gallery_benchmarks.py {{ secrets.GITHUB_TOKEN }}
+          python py_scripts/make_gallery.py {{ secrets.GITHUB_TOKEN }}
           
