@@ -1,36 +1,33 @@
 # Benchmarks gallery
 
-    To reproduce / modify a benchmark,
+To reproduce/modify a benchmark,
     
-    1. clone the benchmark repository and ``cd`` into it,
+1. clone the benchmark repository and ``cd`` into it,
 
-    ```shell
-    $ git clone https://github.com/benchopt/{REPOSITORY_NAME}.git
-    $ cd {REPOSITORY_NAME}
-    ```
+```shell
+$ git clone https://github.com/benchopt/{REPOSITORY_NAME}.git
+$ cd {REPOSITORY_NAME}
+```
 
-    2. install ``benchopt`` to use its API/CLI,
+2. install ``benchopt`` to use its API/CLI,
 
-    ```shell
-    $ pip install -U benchopt
-    ```
+```shell
+$ pip install -U benchopt
+```
     
-    3. run the following command to reproduce the benchmark,
+3. run the following command to reproduce the benchmark,
 
-    ```shell
-    $ benchopt run .
-    ```
+```shell
+$ benchopt run .
+```
 
-    Et Voilà! 
-    
-    Refer to [``Benchopt`` API](https://benchopt.github.io/cli.html#benchopt-run)
-    to explore the different options for running a benchmark.
+Et Voilà! Refer to [``Benchopt`` API](https://benchopt.github.io/cli.html#benchopt-run) 
+to explore the different options for running a benchmark.
 
 
-    ### Available benchmarks
+## Available benchmarks
 
-
-    - [Convolutional sparse coding](https://api.github.com/repos/benchopt/benchmark_csc) ![Test status](https://github.com/benchopt/benchmark_csc/actions/workflows/main.yml/badge.svg)
+- [Convolutional sparse coding](https://api.github.com/repos/benchopt/benchmark_csc) ![Test status](https://github.com/benchopt/benchmark_csc/actions/workflows/main.yml/badge.svg)
 - [The elastic net problem](https://api.github.com/repos/benchopt/benchmark_elastic_net) ![Test status](https://github.com/benchopt/benchmark_elastic_net/actions/workflows/main.yml/badge.svg)
 - [Glm model](https://api.github.com/repos/benchopt/benchmark_glm) ![Test status](https://github.com/benchopt/benchmark_glm/actions/workflows/main.yml/badge.svg)
 - [No description.](https://api.github.com/repos/benchopt/benchmark_huber_l2) ![Test status](https://github.com/benchopt/benchmark_huber_l2/actions/workflows/main.yml/badge.svg)
