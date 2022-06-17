@@ -10,9 +10,7 @@ _— Simplicity, Transparency, and Reproducibility —_
 - **Reproducible** by offering a highly-modular package and standardized approach to make benchmarks
 
 ``Benchopt`` aims to reduce the burden of making, validating, and sharing benchmarks to prevent incorrect conclusions when comparing optimization algorithms.
+``Benchopt`` handles the tedious part for you so that you can focus on more important things.
 
 
-## Further links
-
-- Visit ``Benchopt`` [documentation]() to learn more and its features
-- Follow [this link]() to explore the gallery of benchmarks results
+Visit ``Benchopt`` documentation / repository to learn more about its features and make sure to follow [this link]() to explore the gallery of benchmarks.
