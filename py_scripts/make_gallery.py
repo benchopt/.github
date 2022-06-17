@@ -25,9 +25,7 @@ def _process_description(description):
 
 
 if __name__ == "__main__":
-    ACCESS_TOKEN = sys.argv[0]
-
-    g = Github(ACCESS_TOKEN).get_user('benchopt')
+    g = Github().get_user('benchopt')
     content = "# Gallery of Benchmarks\n\n"
 
     for repo in g.get_repos():
