@@ -26,4 +26,9 @@ jobs:
       - name: run script
         run: |
           python py_scripts/make_gallery.py
+
+      - name: commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'update gallery of benchmarks'
           
