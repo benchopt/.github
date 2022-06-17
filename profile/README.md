@@ -13,4 +13,4 @@ _— Simplicity, Transparency, and Reproducibility —_
 ``Benchopt`` handles the tedious part for you so that you can focus on more important things.
 
 
-Visit ``Benchopt`` documentation / repository to learn more about its features and make sure to follow [this link]() to explore the gallery of benchmarks.
+Visit ``Benchopt`` [documentation](https://benchopt.github.io/) / [repository](https://github.com/benchopt/benchopt) to learn more about its features. Also, make sure to follow [this link](https://github.com/Badr-MOUFAD/.github/blob/benchopt-front/profile/gallery-benchmarks.md) to explore the gallery of benchmarks.

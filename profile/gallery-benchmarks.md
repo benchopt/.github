@@ -17,4 +17,3 @@
 - [Resnet fitting on a classification task](https://api.github.com/repos/benchopt/benchmark_resnet_classif) ![Test status](https://github.com/benchopt/benchmark_resnet_classif/actions/workflows/main.yml/badge.svg)
 - [No description.](https://api.github.com/repos/benchopt/benchmark_ridge) ![Test status](https://github.com/benchopt/benchmark_ridge/actions/workflows/main.yml/badge.svg)
 - [Tv denoising in 1d](https://api.github.com/repos/benchopt/benchmark_tv_1d) ![Test status](https://github.com/benchopt/benchmark_tv_1d/actions/workflows/main.yml/badge.svg)
-- [Tv-regularized problem in 2d](https://api.github.com/repos/benchopt/benchmark_tv_2d) ![Test status](https://github.com/benchopt/benchmark_tv_2d/actions/workflows/main.yml/badge.svg)
