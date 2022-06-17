@@ -23,6 +23,10 @@ jobs:
           pip install --upgrade pip
           pip install -r py_scripts/requirements.txt
 
+      - name: check secret
+        run: |
+          echo '${{ secrets.SECRET_TEST }}'
+
       - name: run script
         run: |
           python py_scripts/make_gallery.py {{ secrets.ACCESS_TOKEN }}
