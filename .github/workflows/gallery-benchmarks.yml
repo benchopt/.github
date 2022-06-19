@@ -1,7 +1,10 @@
 name: gallery-benchmarks
 
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  schedule: "0 0 * * *"
 
 
 jobs:
