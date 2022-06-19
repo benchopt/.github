@@ -4,8 +4,8 @@ name: gallery-benchmarks
 on:
   push:
   pull_request:
-  schedule: "0 0 * * *"
-
+  schedule:
+    - cron: '* * * * *'
 
 jobs:
   gallery-benchmarks:
